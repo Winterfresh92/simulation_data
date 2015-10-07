@@ -1,0 +1,32 @@
+<div class="page-header">
+	<h1><%= @player.name %></h1>
+</div>
+
+<h2>Games Played</h2>
+<table class="table table-condensed table-bordered">
+	<tr>
+		<th>Play Time</th>
+		<th>Time Moving</th>
+		<th>Race Time</th>
+		<th>Idle Time</th>
+		<th>Collisions</th>
+		<th>Items</th>
+		<th>PowerUps</th>
+		<th>Difficulty</th>
+		<th>Won</th>
+	</tr>
+<% @player.games.each do |game| %>
+	<tr>
+		<td><%= game.play_time %></td>
+		<td><%= game.moving_time %></td>
+		<td><%= game.race_time %></td>
+		<td><%= game.idle_time %></td>
+		<td><%= game.collisions %></td>
+		<td><%= game.items_collected %></td>
+		<td><%= game.powerups_collected %></td>
+		<td><%= game.difficulty %></td>
+		<td><%= game.won %></td>
+	</tr>
+<% end %>
+
+</table>

@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  play_time: 1.5
+  moving_time: 1.5
+  race_time: 1.5
+  idle_time: 1.5
+  collisions: 1
+  items_collected: 1
+  powerups_collected: 1
+  difficulty: MyString
+  won: 1
+
+two:
+  play_time: 1.5
+  moving_time: 1.5
+  race_time: 1.5
+  idle_time: 1.5
+  collisions: 1
+  items_collected: 1
+  powerups_collected: 1
+  difficulty: MyString
+  won: 1
